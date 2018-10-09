@@ -1,0 +1,14 @@
+{
+  "main.css": "/confchat/static/css/main.c8a994fc.chunk.css",
+  "main.js": "/confchat/static/js/main.2363aee8.chunk.js",
+  "main.js.map": "/confchat/static/js/main.2363aee8.chunk.js.map",
+  "static/js/1.6105a37c.chunk.js": "/confchat/static/js/1.6105a37c.chunk.js",
+  "static/js/1.6105a37c.chunk.js.map": "/confchat/static/js/1.6105a37c.chunk.js.map",
+  "runtime~main.js": "/confchat/static/js/runtime~main.ced70b67.js",
+  "runtime~main.js.map": "/confchat/static/js/runtime~main.ced70b67.js.map",
+  "static/media/logo.svg": "/confchat/static/media/logo.5d5d9eef.svg",
+  "static/css/main.c8a994fc.chunk.css.map": "/confchat/static/css/main.c8a994fc.chunk.css.map",
+  "index.html": "/confchat/index.html",
+  "precache-manifest.cbc5a6ce2b83407cc60f77e990b21d50.js": "/confchat/precache-manifest.cbc5a6ce2b83407cc60f77e990b21d50.js",
+  "service-worker.js": "/confchat/service-worker.js"
+}
