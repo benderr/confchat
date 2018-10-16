@@ -130,7 +130,7 @@ body {
 }
 
 .chat .chat-history .message-data {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .chat .chat-history .message-data-time {
@@ -140,11 +140,11 @@ body {
 
 .chat .chat-history .message {
     color: white;
-    padding: 18px 20px;
-    line-height: 26px;
-    font-size: 16px;
+    padding: 6px 14px;
+    line-height: 22px;
+    font-size: 14px;
     border-radius: 7px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     width: 90%;
     position: relative;
 }
@@ -158,21 +158,23 @@ body {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-bottom-color: #86BB71;
+    border-bottom-color: #5bb969;
     border-width: 10px;
     margin-left: -10px;
 }
 
 .chat .chat-history .my-message {
-    background: #86BB71;
+    /*background: #86BB71;*/
+    background-image: linear-gradient(to left bottom, #86bb71, #75b96e, #62b86c, #4ab66b, #23b46c);
 }
 
 .chat .chat-history .other-message {
-    background: #94C2ED;
+    /*background: #94C2ED;*/
+    background-image: linear-gradient(to left bottom, #24bdc9, #08b8d5, #1bb2de, #3caae4, #5ba2e5);
 }
 
 .chat .chat-history .other-message:after {
-    border-bottom-color: #94C2ED;
+    border-bottom-color: #00bbcf;
     left: 93%;
 }
 

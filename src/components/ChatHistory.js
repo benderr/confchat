@@ -9,10 +9,45 @@ export const ChatHistory = (messages) => {
             text: 'Are we meeting today? Project has been already finished and I have results to show'
         },
         {
+            from: 'test',
+            date: new Date(),
+            text: 'Are we meeting today? Project has been already finished and I have results to show'
+        },
+        {
+            from: 'test',
+            date: new Date(),
+            text: 'Are we meeting today? Project has been already finished and I have results to show'
+        },
+        {
+            from: 'test',
+            date: new Date(),
+            text: 'Are we meeting today? Project has been already finished and I have results to show'
+        },
+        {
             from: 'Kate',
             date: new Date(),
             text: 'Yes'
-        }
+        },
+        {
+            from: 'Kate',
+            date: new Date(),
+            text: 'Are we meeting today? Project has been already finished and I have results to show'
+        },
+        {
+            from: 'Kate',
+            date: new Date(),
+            text: 'Are we meeting today? Project has been already finished and I have results to show'
+        },
+        {
+            from: 'Kate',
+            date: new Date(),
+            text: 'Are we meeting today? Project has been already finished and I have results to show'
+        },
+        {
+            from: 'test',
+            date: new Date(),
+            text: 'Are we meeting today? Project has been already finished and I have results to show'
+        },
     ];
     return (<div className="chat-history">
         <ul>
