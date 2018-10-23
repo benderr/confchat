@@ -1,8 +1,9 @@
-export default function todos(state = [], action) {
-    switch (action.type) {
-        case 'ADD_TODO':
-            return state.concat([action.text]);
-        default:
-            return state
-    }
-}
+const initialState = [];
+
+const actionHandlers = {
+    ['ADD_TODO']: (draft, payload) => {
+        draft.push(payload.text);
+    },
+};
+
+export default createMutableReducer => createMutableReducer(initialState, actionHandlers);

@@ -1,10 +1,12 @@
-export default function counter(state = 0, action) {
-    switch (action.type) {
-        case 'INCREMENT':
-            return state + 1
-        case 'DECREMENT':
-            return state - 1
-        default:
-            return state
+const initialState = 0;
+
+const actionHandlers = {
+    ['INCREMENT']: (draft, payload) => {
+        return draft + 1;
+    },
+    ['DECREMENT']: (draft, payload) => {
+        return draft - 1;
     }
-}
+};
+
+export default createMutableReducer => createMutableReducer(initialState, actionHandlers);
